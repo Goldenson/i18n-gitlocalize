@@ -9,6 +9,13 @@
   </head>
 
   <body>
+
+    <ul>
+      <li class="nav-bar-item"><%= link_to '🇨🇦', root_path(locale: :en) %></li>
+      <li class="nav-bar-item"><%= link_to '🇫🇷', root_path(locale: :fr) %></li>
+      <li class="nav-bar-item"><%= link_to '🇧🇷', root_path(locale: :pt) %></li>
+    </ul>
+
     <%= yield %>
   </body>
 </html>
